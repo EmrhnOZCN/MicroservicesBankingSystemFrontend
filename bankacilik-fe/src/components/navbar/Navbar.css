@@ -1,0 +1,14 @@
+/* Dropdown menünün tıklanabilir olmasını sağlar */
+#user-menu-button {
+    position: relative;
+  }
+  
+  #user-dropdown {
+    position: absolute;
+    top: 60%; /* İkonun hemen altında açılır */
+    right: 0;
+    transform: translateY(10px); /* Yüksekliği biraz kaydırarak görünürlük sağlar */
+  }
+  
+
+  /* Aşağıdaki CSS, dropdown menüyü tıklanabilir yapar */
